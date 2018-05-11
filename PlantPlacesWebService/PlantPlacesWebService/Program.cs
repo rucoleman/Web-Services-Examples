@@ -16,7 +16,7 @@ namespace PlantPlacesWebService
         {
             BuildWebHost(args).Run();
         }
-
+        // Gratuitous comment
         public static IWebHost BuildWebHost(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>()
